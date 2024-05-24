@@ -1,5 +1,8 @@
 {
-    "root": "public",
+    "root": "public/",
+    "routes": {
+        "/**": "index.html"
+    },
     "clean_urls": true,
     "https_only": true,
     "error_page": "error.html",
